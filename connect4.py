@@ -73,6 +73,7 @@ while True:
     dropCol = validateColumn()
     dropPiece(board, dropCol, player)
     if checkWin(board, player):
+        printBoard()
         print('Player: ' + player + ' wins!!!')
         break
     player = '%' if player == 'x' else 'x'
