@@ -1,6 +1,7 @@
 rows = 6
 cols = 7
 
+#CREATE THE 2D ARRAY THAT WILL BE THE BOARD
 board = [[' ' for _ in range(cols)] for _ in range(rows)]
 
 # TAKES INPUT AND CHECKS IT IS VALID BEFORE USING IT
